@@ -1,0 +1,15 @@
+2024-01-01 08:00:00 INFO Pipeline started
+2024-01-01 08:01:00 INFO Reading source file: gs://bucket/data.csv
+2024-01-01 08:02:00 INFO Rows read: 1000
+2024-01-01 08:03:00 ERROR Failed to parse row 45: unexpected delimiter
+2024-01-01 08:03:01 WARNING Null value detected in column 'amount' at row 78
+2024-01-01 08:04:00 INFO Transformation complete
+2024-01-01 08:05:00 ERROR Connection timeout to BigQuery
+2024-01-01 08:05:30 INFO Retrying...
+2024-01-01 08:06:00 INFO Successfully written 998 rows to BigQuery
+2024-01-01 08:06:01 WARNING 2 rows skipped due to errors
+2024-01-01 08:06:02 INFO Pipeline finished
+2024-01-02 08:00:00 INFO Pipeline started
+2024-01-02 08:01:00 INFO Reading source file: gs://bucket/data.csv
+2024-01-02 08:02:00 ERROR File not found: gs://bucket/data.csv
+2024-01-02 08:02:01 ERROR Pipeline failed

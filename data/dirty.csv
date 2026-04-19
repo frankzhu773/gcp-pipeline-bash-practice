@@ -1,0 +1,12 @@
+id,name,date,amount,status
+1,Alice,2024-01-01,100.00,success
+2,Bob,2024-01-02,200.50,success
+2,Bob,2024-01-02,200.50,success
+4,Diana,2024-01-03,300.00,failed
+5,,2024-01-03,250.00,success
+6,Frank,2024-01-04,,success
+7|Grace|2024-01-04|400.00|success
+8,Hank,2024-01-05,125.00,failed
+9,Ivy,2024-01-05,220.00,success
+10,Jack,2024-01-32,310.50,success
+11,Kate,2024-01-06,310.50,unknown
