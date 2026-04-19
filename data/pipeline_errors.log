@@ -1,0 +1,16 @@
+2024-01-02 09:30:05 INFO [ingestion] Starting data ingestion for AAPL, MSFT
+2024-01-02 09:30:10 INFO [parser] Parsed 1000 rows from source feed
+2024-01-02 09:30:12 WARNING [validator] Row 7: open price 999999.00 exceeds threshold for AAPL
+2024-01-02 09:30:13 INFO [normalizer] Applying price normalization
+2024-01-02 09:30:14 ERROR [validator] Row 10: missing open price for MSFT — row skipped
+2024-01-02 09:30:15 WARNING [validator] Row 15: negative price detected for MSFT (-50.00)
+2024-01-02 09:30:16 INFO [dedup] Checking for duplicates...
+2024-01-02 09:30:17 WARNING [dedup] Duplicate row detected at timestamp 2024-01-02 09:35:00 for AAPL
+2024-01-02 09:30:18 INFO [loader] Loading 996 rows to warehouse
+2024-01-02 09:30:20 ERROR [loader] Connection to warehouse timed out after 30s
+2024-01-02 09:30:21 INFO [loader] Retrying connection (attempt 1/3)
+2024-01-02 09:30:25 INFO [loader] Retrying connection (attempt 2/3)
+2024-01-02 09:30:30 INFO [loader] Connected to warehouse
+2024-01-02 09:30:35 INFO [loader] Successfully loaded 996 rows
+2024-01-02 09:30:36 WARNING [reconciler] Expected 1000 rows, loaded 996 — 4 rows dropped
+2024-01-02 09:30:37 INFO [pipeline] Pipeline complete. Duration: 32s
