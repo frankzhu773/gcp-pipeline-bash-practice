@@ -1,0 +1,19 @@
+2024-03-01 08:00:00 INFO [ingestion] Pipeline started
+2024-03-01 08:00:01 INFO [ingestion] Connected to exchange feed: NYSE, CME, NASDAQ
+2024-03-01 08:00:02 INFO [ingestion] Reading trades from feed...
+2024-03-01 08:00:05 INFO [parser] Successfully parsed 15 trades
+2024-03-01 08:00:06 WARNING [validator] T006: negative price detected — price=-500.00 for BTCUSD
+2024-03-01 08:00:07 WARNING [validator] T007: duplicate trade_id detected — T007 already exists
+2024-03-01 08:00:08 WARNING [validator] T009: missing trader name
+2024-03-01 08:00:09 ERROR [validator] T013: price exceeds threshold — price=9999999.00 for MSFT
+2024-03-01 08:00:10 INFO [validator] Validation complete — 11 passed, 4 flagged
+2024-03-01 08:00:11 INFO [transformer] Applying currency normalization
+2024-03-01 08:00:12 INFO [transformer] Applying exchange fee calculations
+2024-03-01 08:00:13 WARNING [transformer] T002: BTC price variance > 2% from reference price
+2024-03-01 08:00:14 INFO [loader] Connecting to data warehouse...
+2024-03-01 08:00:15 ERROR [loader] Authentication failed — invalid credentials
+2024-03-01 08:00:16 INFO [loader] Retrying connection (attempt 1/3)
+2024-03-01 08:00:20 INFO [loader] Retrying connection (attempt 2/3)
+2024-03-01 08:00:25 INFO [loader] Retrying connection (attempt 3/3)
+2024-03-01 08:00:30 ERROR [loader] Max retries exceeded — pipeline failed
+2024-03-01 08:00:31 INFO [pipeline] Pipeline finished with errors. Duration: 31s. Trades loaded: 0
