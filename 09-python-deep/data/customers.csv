@@ -1,0 +1,9 @@
+customer_id,name,email,tier,join_date
+C101,Alice Johnson,alice@email.com,GOLD,2022-01-15
+C102,Bob Smith,bob@email.com,SILVER,2022-03-20
+C103,Carol White,carol@email.com,GOLD,2021-11-05
+C104,David Brown,david@email.com,BRONZE,2023-02-10
+C105,Eve Davis,eve@email.com,SILVER,2022-07-30
+C106,Frank Miller,frank@email.com,GOLD,2021-09-12
+C107,Grace Lee,grace@email.com,BRONZE,2023-05-18
+C108,Hank Wilson,hank@email.com,SILVER,2022-12-01

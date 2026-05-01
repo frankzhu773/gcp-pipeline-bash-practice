@@ -1,0 +1,16 @@
+order_id,customer_id,product,category,quantity,unit_price,timestamp,region
+O001,C101,Laptop,Electronics,2,999.99,2024-03-01 09:00:00,EAST
+O002,C102,Headphones,Electronics,1,149.99,2024-03-01 09:01:00,WEST
+O003,C103,Desk Chair,Furniture,3,299.99,2024-03-01 09:02:00,EAST
+O004,C101,Monitor,Electronics,2,399.99,2024-03-01 09:03:00,EAST
+O005,C104,Keyboard,Electronics,5,79.99,2024-03-01 09:04:00,NORTH
+O006,C102,Laptop,Electronics,1,999.99,2024-03-01 09:05:00,WEST
+O007,C105,Desk,Furniture,1,499.99,2024-03-01 09:06:00,SOUTH
+O008,C103,Monitor,Electronics,2,399.99,2024-03-01 09:07:00,EAST
+O009,C106,Headphones,Electronics,3,149.99,2024-03-01 09:08:00,WEST
+O010,C101,Desk Chair,Furniture,1,299.99,2024-03-01 09:09:00,EAST
+O011,C107,Laptop,Electronics,1,999.99,2024-03-01 09:10:00,NORTH
+O012,C104,Desk,Furniture,2,499.99,2024-03-01 09:11:00,NORTH
+O013,C108,Keyboard,Electronics,3,79.99,2024-03-01 09:12:00,SOUTH
+O014,C105,Monitor,Electronics,1,399.99,2024-03-01 09:13:00,SOUTH
+O015,C106,Laptop,Electronics,2,999.99,2024-03-01 09:14:00,WEST
